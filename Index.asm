@@ -6,7 +6,7 @@ Start:
     mov [boot_drive], dl
     mov word [seed],ax
 
-    ;~32kb space, used 11kb
+    ;~32kb space, used 16230 bytes = ~16kb
 
     xor ax,ax; Loadina grafikas is hard drive y ram [kas yra nuo 512 byte]
     mov es, ax      ; ES:BX, sektorius rame kur
