@@ -7,3 +7,5 @@ cd /[file path]
 nasm -f bin Index.asm -o Index.bin
 sudo qemu-system-i386 -drive file=[filepath]/Index.bin,format=raw
 
+Pardon me for not translating comments
+
